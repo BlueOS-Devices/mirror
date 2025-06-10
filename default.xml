@@ -3,6 +3,9 @@
 
   <remote  name="github"
            fetch=".." />
+  
+  <remote  name="BlueOs-Devices"
+           fetch="https://github.com/BlueOS-Devices" />
 
   <default revision="main"
            remote="github"
@@ -1270,6 +1273,7 @@
   <project name="LineageOS/android_device_xiaomi_miatoll" />
   <project name="LineageOS/android_device_xiaomi_mido" />
   <project name="LineageOS/android_device_xiaomi_mithorium-common" />
+  <project name="android_device_xiaomi_mojito" remote="BlueOS-Devices" />
   <project name="LineageOS/android_device_xiaomi_mondrian" />
   <project name="LineageOS/android_device_xiaomi_monet" />
   <project name="LineageOS/android_device_xiaomi_msm8937-common" />
